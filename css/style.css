@@ -1,0 +1,77 @@
+
+#banner img{
+	width: 100vw;
+	height: 45vh;
+}
+
+#banner #titulo{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+	bottom:30vh;
+
+
+}
+
+#banner #titulo span{
+	font-size: 50px;
+	font-family: sans-serif;
+	color:white;
+}
+
+#banner div span img{
+	width: 35%;
+	height: 25vh;
+	border-radius: 150px;
+}
+
+
+
+.vip-products .photo{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+footer {
+	
+	background-color: black;
+}
+
+footer  p{
+	color:white;
+	font-family: sans-serif;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+
+footer iframe{
+	margin-left: 30px;
+}
+footer #navLogos{
+	margin-right: 60px;
+
+}
+footer #navLogos div a img{
+	border-radius: 200px;
+	width: 50px;
+	margin-left: 10px;
+
+}
+
+footer #navFooter a{
+	color:white;
+	margin-left: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+footer #copyright{
+	margin-right: 20px;
+	color:grey;
+}
