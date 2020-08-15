@@ -5,7 +5,7 @@
             <meta content="width=device-width, initial-scale=1" name="viewport">
                 <link href="css/style.css" rel="stylesheet">
                     <title>
-                        Home
+                        MyG Dreams
                     </title>
                     <!-- CSS only -->
                     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
@@ -84,64 +84,75 @@
             <div id="banner">
                 <img alt="Banner" src="images/banner.png">
                     <div id="titulo">
-                        <h1>MyG Sueños</h1>
-                            
-                        
-                        <span>
-                            <img alt="" src="images/logo.png">
-                            </img>
-                        </span>
+                        MyG Dreams
                     </div>
-                </img>
+                    <div id="divLogoHome">
+                    <img id="logoHome" alt="" src="images/logo.png">
+                    </div>
+                    
+                
             </div>
-            <div id="clima" class="d-flex justify-content-end mr-2">
+            <div class="d-flex justify-content-end mr-2" id="clima">
                 <!-- weather widget start -->
                 <a href="https://hotelmix.es/weather/mendoza-18288" target="_blank">
                     <img alt="booked.net" src="https://w.bookcdn.com/weather/picture/32_18288_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=60528"/>
                 </a>
                 <!-- weather widget end -->
             </div>
-
         </header>
-       
         <!--*******FIN DEL HEADER*******-->
         <!--*******INICIO DEL CUERPO*****-->
-
         <section class="vip-products">
             <div class="d-flex justify-content-center mt-5">
                 <h1 id="tituloDestacados">
                     Mas destacados
                 </h1>
             </div>
-            <div class="container mt-4">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12" id="producto">
-                        <article class="product mb-5" style="backgroundColor:#FAF7F6;">
-                            <div class="photo-container d-flex justify-content-center">
-                                <a href="#" class="mt-4">
-                                    <img alt="Fotografia de ropa" class="photo" src="images/imagen1.png"/>
-                                </a>
-                            </div>
-                            <h2 class="">
-                                <a class="item__info-title d-flex justify-content-center" href="">
-                                    <span class="main-title">
-                                        Calza Frizada Talle 1 al 6
+            <div class="row">
+                <div class="col-lg-2" id="sideBar">
+                    <ul>
+                        <li>
+                            <a class="links" id="linkProducto">
+                                Ropa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="links" id="linkArtesania">
+                                Artesania
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12" id="producto">
+                            <article class="product mb-5" style="backgroundColor:#FAF7F6;">
+                                <div class="photo-container d-flex justify-content-center">
+                                    <a class="mt-4" href="#">
+                                        <img alt="Fotografia de ropa" class="photo" src="images/imagen1.png"/>
+                                    </a>
+                                </div>
+                                <h2 class="">
+                                    <a class="item__info-title d-flex justify-content-center" href="">
+                                        <span class="main-title" id="tituloProducto">
+                                            Calza Frizada Talle 1 al 6
+                                        </span>
+                                    </a>
+                                </h2>
+                                <div class="precioClass mb-2 d-flex justify-content-center">
+                                    <span class="simboloPrecio" id="precioProducto" style="fontWeight:bold;">
+                                        $500
                                     </span>
-                                </a>
-                            </h2>
-                            <div class="precioClass mb-2 d-flex justify-content-center">
-                                <span class="simboloPrecio" style="fontWeight:bold;">
-                                    $500
-                                </span>
-                                <span class="precio">
-                                </span>
-                            </div>
-                            <div class="d-flex justify-content-center mb-3">
-                                <button class="btn btn-primary mb-4" type="">
-                                    Comprar
-                                </button>
-                            </div>
-                        </article>
+                                    <span class="precio">
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <button class="btn btn-primary mb-4" type="">
+                                        Comprar
+                                    </button>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,16 +160,22 @@
         <!--*******FIN DEL CUERPO*******-->
         <!--*******INICIO DEL FOOTER*****-->
         <footer>
-            <p>
-                Direccion: Niñas de Ayohuma 1395
-                <br>
-                    Telefono: 2616145079
-                    <br>
-                    </br>
-                </br>
-            </p>
-            <iframe aria-hidden="false" class="ml-3" frameborder="0" height="180" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.098350257782!2d-68.79065218562314!3d-32.92199968092844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0c18eda7f299%3A0xf3749d1e1edd1084!2sNi%C3%B1as%20de%20Ayohuma%201395%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1597290047242!5m2!1ses!2sar" style="border:0;" tabindex="0" width="280">
-            </iframe>
+            <div class="row">
+                <div class="col-lg-3">
+                    <iframe aria-hidden="false" class="ml-3" frameborder="0" height="180" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.098350257782!2d-68.79065218562314!3d-32.92199968092844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0c18eda7f299%3A0xf3749d1e1edd1084!2sNi%C3%B1as%20de%20Ayohuma%201395%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1597290047242!5m2!1ses!2sar" style="border:0;" tabindex="0" width="280">
+                    </iframe>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        Direccion: Niñas de Ayohuma 1395
+                        <br>
+                            Telefono: 2616145079
+                            <br>
+                            </br>
+                        </br>
+                    </p>
+                </div>
+            </div>
             <nav id="navLogos">
                 <div class="d-flex justify-content-end">
                     <a href="">
@@ -175,16 +192,12 @@
                     </a>
                 </div>
             </nav>
-            
-
-
-  <div class="row">
-    <div class="col-sm col-lg-6">
-              
-            <!--OnlineRadioBox Player widget-->
-<div class="orbP" id="orb_player_79f17a503f1df905">
-<style media="screen">
-    /* General */
+            <div class="row">
+                <div class="col-sm col-lg-6">
+                    <!--OnlineRadioBox Player widget-->
+                    <div class="orbP" id="orb_player_79f17a503f1df905">
+                        <style media="screen">
+                            /* General */
   .orbP{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid transparent;user-select:none;text-align:left}.orbP br,.orbP>br{display:none!important;}.orbP p,.orbP>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbPh{display:block;position:absolute;z-index:100;top:50%;margin-top:-12px!important;right:10px;width:21px!important;text-decoration:none!important;cursor:pointer}.orbPh>img{margin:0!important;border:none;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(47,99,160,.2));filter:drop-shadow(2px 2px 0 rgba(47,99,160,.2))}.orbPt{text-decoration:none!important}.orbPti{float:left;margin:0 10px 0 0!important;vertical-align:top!important;height:48px!important;width:89px!important;border:none!important;border-radius:2px!important;opacity:1!important}.orbPtn{display:block;margin-right:52px;line-height:24px!important;font-size:17px!important;font-weight:bold!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbPtt{display:block;margin-right:52px;text-decoration:none!important;line-height:24px!important;font-size:12px!important;opacity:.85;transition:opacity .2s;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbPtt:hover{opacity:1}.orbPp,.orbPs{float:left!important;margin:0 10px 0 0!important;padding:0!important;height:48px!important;width:48px!important;line-height:48px!important;border-radius:2px!important;border:none!important;text-align:center!important;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none!important;}.orbPp::before,.orbPs::before{display:inline-block;vertical-align:middle;content:'';width:0;height:0;border-style:solid}.orbPp::before{border-width:16px 0 16px 26px}.orbPs::before{border-width:16px}.orbPp:focus,.orbPs:focus{outline-style:solid;outline-width:thin}.orbPp:hover,.orbPs:hover{-webkit-transform:scale(1.087);transform:scale(1.087)}.orbPhc{position:relative!important;box-sizing:border-box!important;padding:10px!important;overflow:hidden}
     /* Playlist */
   .orbPpl{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important}.orbPpli{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important;background-image:none;float:none!important;height: auto!important}.orbPpli>a,.orbPpli>span{display:block!important;padding:0!important;margin:0!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;transition:color .125s;border:none !important}.orbPpli>a:hover,.orbPpli>span:hover{background:transparent!important}.orbPpli>a>time,.orbPpli>span>time{display:inline-block;font-size:12px!important;width:3em!important}.orbPpli+li{border-style:solid!important;border-width:1px 0 0!important}
@@ -217,22 +230,42 @@
     /* Compact w/Playlist */
   .cmpct .orbPpli>a,.cmpct .orbPpli>span{line-height:24px!important;font-size:12px!important}
   .cmpct .orbPpli>a>time,.cmpct .orbPpli>span>time{font-size:11px!important}
-
-</style>
-<style media="screen" id="orb_player_79f17a503f1df905_settings">.orbP{background-color:#000000 !important;}/*common player background*/.orbP{border-style: solid; border-color:#3c4249 !important;border-radius:5px;}/*common player container border, radius, width*/.orbPp,.orbPs{background:#373d43 !important}/*buttons play/stop bg*/.orbPp::before{border-color:transparent transparent transparent #ffffff !important} /* play button color */.orbPp:focus,.orbPs:focus{outline-color:#ffffff}.orbPs::before{border-color:#ffffff !important} /* stop button color */.orbPtn,.orbPtt,.orbPtt:hover{color:#00ffee !important;}/*station name & track link color*/.orbV{background-color:#000000 !important;box-shadow:0 0 32px 32px #000000 !important}/*volume control color */.orbVC::after,.orbVb::after{border-color:transparent #ffffff transparent transparent !important}.orbVb::before,.orbVCs{background:#ffffff !important} /* volume bg color */.orbVb>._m::before,.orbVb>._m::after{border-color:#ffffff !important}.orbF{background:#ffffff !important;color:#444444 !important;border-color:#000000 !important}/* geo background & text color  */.orbFli,.orbFlif{box-shadow:0 0 1px 0 #444 inset !important}.orbFhi,.orbFhi::before,.orbFhi::after{border-color:#444 !important}</style>
-<div class="orbPhc">
-  <a class="orbPh" href="https://onlineradiobox.com/" title="Listen on Online Radio Box!" target="_blank"><img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!"></a>
-<audio id="orb_player_79f17a503f1df905_p" crossorigin="true" style="width:1px;height:1px;overflow:hidden;position:absolute;"></audio>
-
-  <button class="orbPp" title="En Vivo" country="ar" alias="estacindelsol" stream="1" autoplay="autoplay"></button>
-  <a class="orbPt" href="https://onlineradiobox.com/ar/estacindelsol/" target="_blank"><img class="orbPti" src="//us0-cdn.onlineradiobox.com/img/logo/5/2315.png" alt="Estación del Sol"><span class="orbPtn">Estación del Sol</span></a>
-  <span class="orbPtt" loading="cargando" playing="en directo" error="error de reproduccion" not_supported="this browser can't play it" external="Escuchar ahora (Abrir en un reproductor emergente)"></span>
-  <div class="orbV"><div class="orbVb"><i class="_m"></i></div><div class="orbVC"><div class="orbVCs" style="left: 80%;"></div></div></div>
-</div>
-
-<div class="orbF" style="display:none"></div>
-<script>
-  var orbp_w = orbp_w || { lang: "es-es" };
+                        </style>
+                        <style id="orb_player_79f17a503f1df905_settings" media="screen">
+                            .orbP{background-color:#000000 !important;}/*common player background*/.orbP{border-style: solid; border-color:#3c4249 !important;border-radius:5px;}/*common player container border, radius, width*/.orbPp,.orbPs{background:#373d43 !important}/*buttons play/stop bg*/.orbPp::before{border-color:transparent transparent transparent #ffffff !important} /* play button color */.orbPp:focus,.orbPs:focus{outline-color:#ffffff}.orbPs::before{border-color:#ffffff !important} /* stop button color */.orbPtn,.orbPtt,.orbPtt:hover{color:#00ffee !important;}/*station name & track link color*/.orbV{background-color:#000000 !important;box-shadow:0 0 32px 32px #000000 !important}/*volume control color */.orbVC::after,.orbVb::after{border-color:transparent #ffffff transparent transparent !important}.orbVb::before,.orbVCs{background:#ffffff !important} /* volume bg color */.orbVb>._m::before,.orbVb>._m::after{border-color:#ffffff !important}.orbF{background:#ffffff !important;color:#444444 !important;border-color:#000000 !important}/* geo background & text color  */.orbFli,.orbFlif{box-shadow:0 0 1px 0 #444 inset !important}.orbFhi,.orbFhi::before,.orbFhi::after{border-color:#444 !important}
+                        </style>
+                        <div class="orbPhc">
+                            <a class="orbPh" href="https://onlineradiobox.com/" target="_blank" title="Listen on Online Radio Box!">
+                                <img alt="Listen on Online Radio Box!" src="//ecdn.onlineradiobox.com/img/wl.svg"/>
+                            </a>
+                            <audio crossorigin="true" id="orb_player_79f17a503f1df905_p" style="width:1px;height:1px;overflow:hidden;position:absolute;">
+                            </audio>
+                            <button alias="estacindelsol" autoplay="autoplay" class="orbPp" country="ar" stream="1" title="En Vivo">
+                            </button>
+                            <a class="orbPt" href="https://onlineradiobox.com/ar/estacindelsol/" target="_blank">
+                                <img alt="Estación del Sol" class="orbPti" src="//us0-cdn.onlineradiobox.com/img/logo/5/2315.png">
+                                    <span class="orbPtn">
+                                        Estación del Sol
+                                    </span>
+                                </img>
+                            </a>
+                            <span class="orbPtt" error="error de reproduccion" external="Escuchar ahora (Abrir en un reproductor emergente)" loading="cargando" not_supported="this browser can't play it" playing="en directo">
+                            </span>
+                            <div class="orbV">
+                                <div class="orbVb">
+                                    <i class="_m">
+                                    </i>
+                                </div>
+                                <div class="orbVC">
+                                    <div class="orbVCs" style="left: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orbF" style="display:none">
+                        </div>
+                        <script>
+                            var orbp_w = orbp_w || { lang: "es-es" };
   orbp_w.cmd = orbp_w.cmd || [];
   orbp_w.cmd.push(function() {
     orbp_w.init("orb_player_79f17a503f1df905");
@@ -240,36 +273,31 @@
   var s, t; s = document.createElement('script'); s.type = 'text/javascript';
 s.src = "//ecdn.onlineradiobox.com/js/pwidget2.min.235ca64e.js";
   t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
-</script>
-</div>
-<!--OnlineRadioBox Player widget-->
-    </div>
-
-    <div class="col-lg-6 d-flex align-items-end">
-     <nav id="navFooter">
-                <a href="index.html">
-                    Home
-                </a>
-                <a href="#">
-                    Productos
-                </a>
-                <a href="#">
-                    F.A.Q
-                </a>
-                <a href="#">
-                    Contacto
-                </a>
-            </nav>
-    </div>
-
-</div>
-
-
-
+                        </script>
+                    </div>
+                    <!--OnlineRadioBox Player widget-->
+                </div>
+                <div class="col-lg-6 d-flex align-items-end">
+                    <nav id="navFooter">
+                        <a href="index.html">
+                            Home
+                        </a>
+                        <a href="#">
+                            Productos
+                        </a>
+                        <a href="#">
+                            F.A.Q
+                        </a>
+                        <a href="#">
+                            Contacto
+                        </a>
+                    </nav>
+                </div>
+            </div>
             <div class="d-flex justify-content-end" id="copyright">
                 Produced by 桜DevCode
+                <img id="logoCopyright" src="images/logoFirma.png" alt="Logo de DevCode">
             </div>
-
         </footer>
         <!--*******FIN DEL FOOTER******-->
         <script src="js/logica.js">

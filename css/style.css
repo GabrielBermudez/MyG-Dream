@@ -1,6 +1,16 @@
 body {
-	max-width: 1400px;
+	
 	margin:0 auto;
+}
+
+.vip-products .row{
+	margin-left:0px;
+	margin-right: 0px;
+}
+
+footer .row{
+	margin-left:0px;
+	margin-right: 0px;
 }
 header{
 	height: 80vh;
@@ -15,11 +25,7 @@ header{
 	margin: 0 auto;
 	position: relative;
 	bottom:47vh;
-	left: 38%;
 
-}
-
-#banner #titulo h1{
 	font-size: 50px;
 	font-family: sans-serif;
 	width: 320px;
@@ -35,12 +41,18 @@ background: linear-gradient(to right, rgba(224,41,145,1) 0%, rgba(239,97,178,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02991', endColorstr='#db3d97', GradientType=1 )
 }
 
-#banner div span img{
-	width: 12%;
-	height: 25vh;
+#banner #divLogoHome{
+	position: relative;
+	bottom:47vh;
+	text-align: center;
+}
+
+#banner div #logoHome{
+	margin-top: 5px;
+	width: 14%;
+	height: 28vh;
 	border-radius: 150px;
-	margin-left: 75px;
-	margin-top: 20px;
+	
 background: rgba(224,41,145,1);
 background: -moz-linear-gradient(left, rgba(224,41,145,1) 0%, rgba(239,97,178,1) 19%, rgba(227,135,189,1) 33%, rgba(227,165,202,1) 44%, rgba(230,168,205,1) 54%, rgba(227,165,202,1) 64%, rgba(227,135,189,1) 75%, rgba(239,97,178,1) 87%, rgba(219,61,151,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224,41,145,1)), color-stop(19%, rgba(239,97,178,1)), color-stop(33%, rgba(227,135,189,1)), color-stop(44%, rgba(227,165,202,1)), color-stop(54%, rgba(230,168,205,1)), color-stop(64%, rgba(227,165,202,1)), color-stop(75%, rgba(227,135,189,1)), color-stop(87%, rgba(239,97,178,1)), color-stop(100%, rgba(219,61,151,1)));
@@ -60,6 +72,20 @@ section div #tituloDestacados{
 	position: relative;
 	bottom: 8vh;
 	}
+section #sideBar{
+	background-color: #212529;
+	opacity: 0.93;
+	height: 600px;
+}
+
+section .links{
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	list-style: none;
+}
+
+
 
 .vip-products article{
 	background-color:#EAE7E6;
@@ -80,21 +106,17 @@ footer {
 	background-color: black;
 }
 
+footer iframe{
+	margin-top: 40px;
+}
 footer  p{
 	color:white;
 	font-family: sans-serif;
-	margin-left: 30px;
-	padding-top: 10px;
+	margin-top: 40px;
 }
 
-footer iframe{
-	
-    align-items: center;
-    margin: 0 auto;
-    align-content: center;
-    margin-left: 30px;
 
-}
+
 footer #navLogos{
 	margin-right: 60px;
 
@@ -116,4 +138,13 @@ footer #navFooter a{
 footer #copyright{
 	margin-right: 20px;
 	color:grey;
+}
+
+footer #logoCopyright{
+	border-radius: 50px;
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
 }
